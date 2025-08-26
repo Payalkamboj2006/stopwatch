@@ -1,0 +1,101 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxI2Y5CWihlryoXAI8HMiVAJBcpOj0BqFXhw&s");
+    background-size: cover;
+}
+#time{ margin-top: 10%;
+    margin-left: 33%;
+    height: 150px;
+    width: 500px;
+    display: flex;
+}    
+#time p{
+        color: rgb(203, 10, 10);
+        font-size: 85px;
+}
+#divv{
+    margin-top: 5%;
+    margin-left: 32%;
+    height:150px;
+    width: 400px;
+    display: flex;
+    
+}
+#lap{
+    font-size: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    display: block;
+
+    
+}
+#reset{ font-size: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    display: none;
+   
+}
+#start{ font-size: 50px;
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    display: block;
+   
+}
+#stop{ font-size: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 100px;
+    display: none; 
+    
+}
+#lap:hover{
+    background-color: red;
+    box-shadow: 0px 10px 20px 0px red,0px 10px 20px 0px red;
+}
+#start:hover{
+    background-color: red;
+    box-shadow: 0px 10px 20px 0px red,0px 10px 20px 0px red;
+}
+#stop:hover{
+    background-color: red;
+    box-shadow: 0px 10px 20px 0px red,0px 10px 20px 0px red;
+}
+#reset:hover{
+    background-color: red;
+    box-shadow: 0px 10px 20px 0px red,0px 10px 20px 0px red;
+}
+#lapbox{
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 8%;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+#item{
+
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 30%;
+}
+
+#lapbox h3{
+ 
+    color: red;
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+#lapbox p{
+
+    color : red;
+    margin-right: 10px;
+    font-size: 28px;
+}
